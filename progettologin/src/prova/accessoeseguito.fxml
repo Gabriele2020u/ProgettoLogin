@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="180.0" prefWidth="389.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prova.Controllerstage2">
+   <center>
+      <AnchorPane prefHeight="180.0" prefWidth="386.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="101.0" layoutY="14.0" prefHeight="16.0" prefWidth="232.0" text="Benvenuto">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Label>
+            <Label fx:id="benvenutotxt" layoutX="22.0" layoutY="90.0" onDragDetected="#initialize" prefHeight="26.0" prefWidth="344.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
